@@ -16,3 +16,6 @@
 [submodule "gruvbox-zsh"]
     path = .oh-my-zsh/custom/themes
     url = https://github.com/sbugzu/gruvbox-zsh
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
