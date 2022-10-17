@@ -10,12 +10,9 @@
 [submodule "vim-gitgutter"]
 	path = .vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule ".oh-my-zsh"]
-	path = .oh-my-zsh
-    url = https://github.com/ohmyzsh/ohmyzsh/
 [submodule "gruvbox-zsh"]
-    path = .oh-my-zsh/custom/themes
-    url = https://github.com/sbugzu/gruvbox-zsh
+        path = .oh-my-zsh/custom/themes
+        url = https://github.com/sbugzu/gruvbox-zsh
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm

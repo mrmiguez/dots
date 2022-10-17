@@ -1,0 +1,12 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias xml='xmlstarlet'
+alias py3='python3'
+alias ipy3='ipython3'
+alias sax='java -jar ~/.local/share/saxon/saxon-he-10.1.jar'
+alias val='xmllint --noout --schema ~/.local/share/schema/mods-3-6.xsd'
+alias tmux="tmux -2"
+alias restart="sudo poweroff --reboot"
+alias shutdown="sudo poweroff -p"
+alias xmlsel="xmlstarlet sel -t -v"
