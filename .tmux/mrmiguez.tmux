@@ -48,7 +48,7 @@ bind-key C-h split-window
 # bind-key C-o rename-window
 
 # Using the mouse to switch panes
-set -g mouse-utf8 on
+#set -g mouse-utf8 on
 set -g mouse on
 
 # Ctrl - t or t new window

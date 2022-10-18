@@ -21,11 +21,11 @@ mkdir ~/bin
 cd ~/bin/
 git clone --recurse-submodules https://github.com/mrmiguez/dots
 cp ~/bin/dots/.bashrc ~/.bashrc
-cp ~/bin/dots/.vimrc ~/.vimrc
-cp ~/bin/dots/.tmux.conf ~/.tmux.conf
 cp -r ~/bin/dots/.fonts/ ~/.fonts
 cp -r ~/bin/dots/.vim/ ~/.vim  
-cp -r ~/bin/dots/.tmux/ ~/.tmux 
+ln -s ~/.vim/simple.vim ~/.vimrc
+cp -r ~/bin/dots/.tmux/ ~/.tmux
+ln -s ~/.tmux/mrmiguez.tmux ~/.tmux.conf
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
